@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Maitree:wght@200;300;400;500;600;700&family=Questrial&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.maitree  {
+    font-family: "Maitree", serif; 
+    font-style: normal;
+  }
+  
+.questrial {
+    font-family: "Questrial", sans-serif; 
+    font-style: normal;
+  }
+  
