@@ -17,7 +17,7 @@ const Index = () => {
           <BlogPosts/>
           <ContactUs/>
       </div>
-      <div className="fixed bottom-4 right-4 capitalize font-semibold"> let's chat</div>
+      <div className="fixed bottom-2 right-4 capitalize  bg-slate-300 px-4 py-1 font-semibold"> <a href="https://wa.me/+2349157277069"> let's chat</a></div>
     </div>
   )
 }

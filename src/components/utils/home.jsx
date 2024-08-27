@@ -1,17 +1,25 @@
- import logo from '../../assets/globe-which-can-easily-modify-or-edit-vector-removebg-preview.png';
+import logo from '../../assets/pexels-pixabay-87651-removebg-preview.png';
 
 const Home = () => {
   return (
     <div className="flex flex-col items-center mt-12 justify-center text-center py-12 px-4">
-      {/* Yellow Circle with Hover Animation */}
-      <div className="flex items-center justify-center bg-yellow-400 p-7 rounded-full w-[15rem] h-[15rem] transition duration-500 ease-in-out mb-6 hover:bg-yellow-500 hover:shadow-lg hover:scale-105">
-  <img src={logo} alt="The Global Actuary"  width={60} />
-  <div className="flex flex-col text-center ml-2">
-    <h1 className="text-xl font-semibold">The Global Actuary</h1>
-    <span className="text-sm font-light">Futurity Prowess Unleashed</span>
-  </div>
+{/* Yellow Circle with Hover Animation */}
+<div className="flex flex-col items-center justify-center bg-yellow-400 p-7 rounded-full w-[15rem] h-[15rem] transition duration-500 ease-in-out mb-6 hover:bg-yellow-500 hover:shadow-lg hover:scale-105">
+  <h1 className="text-3xl font-bold mb-2">
+    The
+    <span className="flex items-center">
+      Global
+      <img
+        src={logo}
+        alt="The Global Actuary"
+        width={30} // Adjusted size for better visibility
+        className="mx-2 mb-1 Rimg" // Center align with text
+      />
+    </span>
+    Actuary
+  </h1>
+  <span className="text-sm font-light">Futurity Prowess Unleashed</span>
 </div>
-
 
       
       {/* Heading Section */}
